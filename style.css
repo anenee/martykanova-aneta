@@ -18,6 +18,9 @@ body {
   align-items: center;
   gap: 36px;
 }
+.bio {
+  color: #fff;
+}
 
 .header-img {
   width: 180px;
