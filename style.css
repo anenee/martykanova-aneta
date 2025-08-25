@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   gap: 36px;
+    box-shadow: 5px 5px 5px #8C83FB;
 }
 
 .text {
@@ -136,7 +137,6 @@ h2 {
   height: 160px;
   border-radius: 50%;
   object-fit: cover;
-  /* Odstraněn box-shadow, žádný rámeček */
 }
 
 .contact-text {
@@ -144,7 +144,7 @@ h2 {
   text-align: center;
   z-index: 1;
     line-height: 0.5;
-   margin-left: 55px;
+   margin-left: 60px;
 }
 @media (max-width: 600px) {
   .bubble-contact {
