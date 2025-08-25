@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e1d8ff;
+  font-family: Arial, sans-serif;
+}
+
+/* Sekce */
+.section {
+  background: #cbbffe;
+  border-radius: 20px;
+  margin: 48px auto;
+  padding: 40px;
+  max-width: 860px;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.header-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.section-content {
+  flex: 1;
+}
+
+h1,
+h2 {
+  font-family: "Dela Gothic One", Arial, sans-serif;
+  margin: 0 0 24px 0;
+}
+h1 {
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #fff;
+}
+h2 {
+  font-size: 2em;
+  color: #9e7cff;
+}
+
+.desc {
+  margin-bottom: 18px;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #9e7cff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 10px 26px;
+  border: none;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cv-btn:hover {
+  background: #7c5eb9;
+}
+
+.projects-section {
+  margin: 0 auto 48px auto;
+  max-width: 860px;
+  padding: 28px 40px;
+}
+
+.footer-section {
+  background: #cbbffe;
+  border-radius: 20px;
+  margin: 48px auto;
+  padding: 40px 36px;
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+}
+
+.bubble-contact {
+  position: relative;
+  background: url("box_kontakt.png") no-repeat center/cover;
+  min-height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.15em;
+}
+
+.footer-img {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-text {
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .section,
+  .footer-section {
+    flex-direction: column;
+    padding: 20px;
+    gap: 18px;
+    min-width: unset;
+  }
+  .footer-img {
+    position: static;
+    transform: none;
+    margin: 0 auto 16px auto;
+  }
+  .bubble-contact {
+    flex-direction: column;
+    padding: 24px 12px;
+  }
+}
