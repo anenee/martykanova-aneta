@@ -144,7 +144,7 @@ h2 {
   text-align: left;
   z-index: 1;
     line-height: 0.5;
-   margin-left: 35px;
+   margin-left: 50px;
 }
 @media (max-width: 600px) {
   .bubble-contact {
