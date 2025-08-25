@@ -150,14 +150,16 @@ h2 {
     padding-top: 70px;
     max-width: 100%;
   }
+  
   .footer-img {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, -40%);
-    width: 90px;
-    height: 90px;
-    margin-bottom: 6px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%); 
   }
   }
   .bubble-contact {
