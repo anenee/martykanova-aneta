@@ -93,6 +93,26 @@ body {
   top: 710px;
 }
 
+.star17 {
+  left: 60%;
+  top: 400px;
+}
+
+.star18 {
+  left: 90%;
+  top: 710px;
+}
+
+.star19 {
+  left: 50%;
+  top: 600px;
+}
+
+.star20 {
+  left: 20%;
+  top: 550px;
+}
+
 /* Animace pulsování */
 @keyframes yellowLineFadeScale {
   0%,
