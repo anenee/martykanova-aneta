@@ -44,10 +44,11 @@ h1 {
   font-size: 2.6em;
   font-weight: bold;
   color: #fff;
-    text-decoration-line: underline;
+ text-decoration-line: underline;
   text-decoration-color: #fff;
   text-decoration-style: wavy;
-  text-underline-offset: 8px;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 7px;
 }
 h2 {
   font-size: 2em;
