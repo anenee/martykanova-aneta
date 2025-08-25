@@ -114,29 +114,31 @@ h2 {
 .bubble-contact {
   position: relative;
   background: url('box_kontakt.png') no-repeat center/contain;
-  min-height: 180px;
+  min-height: 200px;
   width: 100%;
-  max-width: 500px;    /* Nyní bublina nemá přesah přes stránku */
+  max-width: 500px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 1.15em;
-  padding-left: 120px;  /* Prostor pro obrázek vlevo */
+  padding-left: 200px;  /* zvětšený prostor pro obrázek vlevo */
   box-sizing: border-box;
 }
+
 .footer-img {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 110px;          /* Zmenšený obrázek */
-  height: 110px;
+  width: 180px;           /* zvětšeno */
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 2px 12px 0 rgba(80,48,143,0.1);
+  /* Odstraněn box-shadow, žádný rámeček */
 }
+
 .contact-text {
   width: 100%;
   text-align: center;
