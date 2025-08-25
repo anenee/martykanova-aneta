@@ -92,45 +92,52 @@ h2 {
 
 .bubble-contact {
   position: relative;
-  background: url("box_kontakt.png") no-repeat center/cover;
+  background: url('box_kontakt.png') no-repeat center/contain;
   min-height: 180px;
   width: 100%;
+  max-width: 500px;    /* Nyní bublina nemá přesah přes stránku */
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 1.15em;
+  padding-left: 120px;  /* Prostor pro obrázek vlevo */
+  box-sizing: border-box;
 }
-
 .footer-img {
   position: absolute;
-  left: 18px;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 180px;
-  height: 180px;
+  width: 110px;          /* Zmenšený obrázek */
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 2px 12px 0 rgba(80,48,143,0.1);
 }
-
 .contact-text {
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
-  z-index: 2;
+  z-index: 1;
 }
-
 @media (max-width: 600px) {
-  .section,
-  .footer-section {
+  .bubble-contact {
     flex-direction: column;
-    padding: 20px;
-    gap: 18px;
-    min-width: unset;
+    min-height: unset;
+    padding-left: 0;
+    padding-top: 70px;
+    max-width: 100%;
   }
   .footer-img {
-    position: static;
-    transform: none;
-    margin: 0 auto 16px auto;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -40%);
+    width: 90px;
+    height: 90px;
+    margin-bottom: 6px;
+  }
   }
   .bubble-contact {
     flex-direction: column;
