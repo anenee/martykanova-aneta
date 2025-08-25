@@ -217,6 +217,87 @@ h2 {
   padding: 28px 40px;
 }
 
+.carousel-css-container {
+  width: 700px;
+  margin: 0 auto 2em auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.carousel-css-slides {
+  position: relative;
+  width: 700px;
+  height: 530px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 4px 4px 12px #8c83fb66;
+  margin-bottom: 24px;
+}
+
+.carousel-css-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  z-index: 1;
+}
+
+.carousel-css-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+/* Viditelnost slide při zaškrtnutí radio buttonu */
+#carousel-css-1:checked ~ .carousel-css-slides #slide1,
+#carousel-css-2:checked ~ .carousel-css-slides #slide2,
+#carousel-css-3:checked ~ .carousel-css-slides #slide3 {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+/* Skrytí radio buttonů */
+.carousel-css-container input[type="radio"] {
+  display: none;
+}
+
+/* Navigační tečky */
+.carousel-css-nav {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.carousel-css-nav label {
+  width: 22px;
+  height: 22px;
+  background: #a897ee;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #8c83fb88;
+  border: 3px solid #cbbffe;
+  transition: background 0.18s, border 0.14s;
+}
+
+#carousel-css-1:checked ~ .carousel-css-nav label[for="carousel-css-1"],
+#carousel-css-2:checked ~ .carousel-css-nav label[for="carousel-css-2"],
+#carousel-css-3:checked ~ .carousel-css-nav label[for="carousel-css-3"] {
+  background: #8f6ef0;
+  border: 3px solid #a897ee;
+}
+
 .footer-section {
   background: #cbbffe;
   border-radius: 20px;
