@@ -26,15 +26,13 @@ body {
   transform-origin: center;
 }
 
-/* Unikátní pozice každé hvězdy */
-/* Můžeš upravit dle potřeby pro lepší rozprostření */
 .star1 {
   left: 2%;
   top: 66px;
 }
 .star2 {
   left: 13%;
-  top: 270px;
+  top: 300px;
 }
 .star3 {
   left: 26%;
