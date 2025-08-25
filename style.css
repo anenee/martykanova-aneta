@@ -132,8 +132,8 @@ h2 {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 180px;           /* zvětšeno */
-  height: 180px;
+  width: 160px;           /* zvětšeno */
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   /* Odstraněn box-shadow, žádný rámeček */
