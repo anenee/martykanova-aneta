@@ -28,6 +28,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
+  box-shadow: 5px 5px 5px #8C83FB;
 }
 
 .section-content {
@@ -43,6 +44,10 @@ h1 {
   font-size: 2.6em;
   font-weight: bold;
   color: #fff;
+    text-decoration-line: underline;
+  text-decoration-color: #fff;
+  text-decoration-style: wavy;
+  text-underline-offset: 12px;
 }
 h2 {
   font-size: 2em;
@@ -70,12 +75,14 @@ h2 {
   border-radius: 12px;
   border: none;
   text-decoration: none;
+  font-size: 32px;
   font-size: 1em;
   cursor: pointer;
   transition: background 0.2s;
   padding: 0; /* odstraní vnitřní výplň */
   box-sizing: border-box;
-    margin: 32px 0 0 0; 
+    margin: 32px 0 0 0;
+  box-shadow: 5px 5px 5px #8C83FB;
 }
 .cv-btn:hover {
   background: #7C5EB9;
