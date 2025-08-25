@@ -141,7 +141,7 @@ h2 {
 
 .contact-text {
   width: 100%;
-  text-align: center;
+  text-align: left;
   z-index: 1;
     line-height: 0.5;
    margin-left: 35px;
