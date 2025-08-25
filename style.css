@@ -13,11 +13,13 @@ body {
   border-radius: 20px;
   margin: 48px auto;
   padding: 40px;
-  max-width: 860px;
+  width: 90%;
+  max-width: 1400px;
   display: flex;
   align-items: center;
   gap: 36px;
 }
+
 .text {
   color: #fff;
 }
