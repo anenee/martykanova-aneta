@@ -30,7 +30,6 @@ body {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  box-shadow: 5px 5px 5px #8C83FB;
 }
 
 .section-content {
@@ -87,7 +86,6 @@ h2 {
   padding: 0; /* odstraní vnitřní výplň */
   box-sizing: border-box;
     margin: 32px 0 0 0;
-  box-shadow: 5px 5px 5px #8C83FB;
 }
 .cv-btn:hover {
   background: #7C5EB9;
